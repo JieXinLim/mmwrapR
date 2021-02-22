@@ -1,0 +1,21 @@
+Package: mmwrapR
+Title: Wrapper for using TECH11 and TECH14 for Latent Profile Analysis in Mplus
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jie Xin",
+           family = "Lim",
+           role = c("aut", "cre"),
+           email = "jie.x.lim@gmail.com")
+Description: This package automates the search for the optimal seed number to 
+  reduce the computational time to obtain the TECH11 (Lo-Mendell-Rubin test) 
+  and TECH14 (boostrapped likelihood ratio test) to test for the number of 
+  classes in latent profile analysis. 
+License: GPL (>= 3)
+Imports: MplusAutomation
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
